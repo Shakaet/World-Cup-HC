@@ -1,0 +1,651 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Football World  Cup </title>
+    <script src="https://kit.fontawesome.com/7ee369b1ec.js" crossorigin="anonymous"></script>
+
+    <style>
+
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap');
+
+
+         .body{
+
+            font-family: 'Poppins', sans-serif;
+            background: #FFF;
+         }
+        
+        .container{
+
+
+            width: 1321px;
+            height: 613px;
+            border-radius: 30px;
+            background-color:#161616 ;
+
+            /* 1300
+            613 */
+
+            padding-left: 106px;
+            padding-top: 33px;
+           
+        }
+
+        .headline{
+            color: #FFF;
+            font-size: 70px;
+        }
+
+        .theory{
+            color: #FFF;
+            font-size: 16px;
+            
+        }
+
+        .img img{
+             
+            width: 581px;
+            height: 613px;
+            padding-right:79px ;
+            padding-left: 24px;
+        }
+
+        .button a{
+
+            color: #FFF;
+            text-align: center;
+            font-size: 20px;
+            text-decoration: none;
+
+        }
+
+        .attract{
+            color:#FFFFFF;
+            font-size:20px;
+        }
+
+        .button{
+            width: 130px;
+            height:30px;
+            border: 2px solid white;
+            padding-left: 25px;
+            padding-right: 25px;
+            padding-top: 16px;
+            padding-bottom: 10px;
+            border-radius: 10px;
+            background-color: #D00;
+
+        }
+
+        .information{
+
+            /* display: flex;
+            align-items: center;
+            justify-content: space-between; */
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+            grid-column-gap: 24px;
+
+        }
+
+        .main{
+
+            display: flex;
+            justify-content: center;
+        }
+
+        .container2{
+
+
+                width: 312px;
+                height: 312px;
+                border-radius: 10px;
+                background-color:#161616 ;
+                margin-top:80px ;
+
+                /* 1300
+                613 */
+
+                /* padding-left: 106px;
+                padding-top: 33px; */
+
+            }
+
+            .flex{
+                display: flex;
+                justify-content: left;
+                 padding-left: 100px;
+            }
+
+        .div1{
+
+            width: 230px;
+            height: 64px;
+            background-color: #FFF;
+            margin-left: 35px;
+            margin-top: 40px;
+            border-radius: 10px;
+        }
+
+        .nav1 a{
+           position: relative;
+            text-decoration: none;
+            margin-left: 50px;
+             top: 20px;
+             color: #161616;
+             font-size: 20px;
+        }
+
+        .div2{
+
+            width: 230px;
+            height: 64px;
+            background-color: #FFF;
+            margin-top: 30px;
+            margin-left:35px;
+            border-radius: 10px;
+
+        }
+
+
+        .nav2 a{
+
+            position: relative;
+            text-decoration: none;
+            margin-left: 75px;
+             top: 20px;
+             color: #161616;
+             font-size: 20px;
+       }
+
+    
+            .div3{
+
+                width: 230px;
+                height: 64px;
+                background-color: #FFF;
+                margin-top: 35px;
+                margin-left:35px;
+                border-radius: 10px;
+
+            }
+
+            .nav3 a{
+
+                position: relative;
+                text-decoration: none;
+                margin-left: 85px;
+                top: 20px;
+                color: #161616;
+                 font-size: 20px;
+           }
+
+           .div1:hover{
+                 background-color: #D00;
+                }
+
+            .div2:hover{
+                 background-color: #D00;
+                }
+            .div3:hover{
+                 background-color: #D00;
+                }
+
+           .match img{
+
+            width: 312px;
+            height: 175px;
+            flex-shrink: 0;
+            border-radius: 10px;
+           }
+
+           .status{
+            /* margin-top: 20px; */
+        
+
+           }
+
+           .title{
+            
+            width: 75px;
+            height: 20px;
+            flex-shrink: 0;
+            border-radius: 5px;
+            border: 2px solid #161616;
+            font-size: 16px;
+            padding-left: 10px;
+           }
+
+           .details{
+
+            color: #161616;
+            font-size: 18px;
+           }
+
+           .clock{
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+            grid-column-gap:0;
+           }
+
+           .container2{
+
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+            grid-column-gap: 140px;
+           }
+
+           .status{
+
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+
+            grid-column-gap: 80px;
+            grid-row-gap: 50px;
+           }
+
+
+           .foot{
+            
+            width: 100%px;
+            height: 300px;
+            background-color: #161616;
+            margin-top: 800px;
+
+           }
+
+           .goal{
+
+            color: #FFF;
+            text-align: center;
+            font-size: 40px;
+            padding-top: 50px;
+
+           }
+
+           .info{
+            color: #B9B9B9;
+            font-family: Poppins;
+           }
+
+           .grid{
+
+            display: grid;
+            grid-template-columns: repeat(6,1fr);
+             grid-row-gap: 1px;
+            margin-top: 80px;
+            padding-left: 230px;
+            padding-right: 150px;
+           }
+
+           .ger img{
+                
+            width: 93.044px;
+            height: 56.178px;
+            flex-shrink: 0;
+
+           }
+
+           .fra img{
+
+            width: 93.044px;
+            height: 54.422px;
+            flex-shrink: 0;
+           }
+
+           .vs{
+            font-size: 16px;
+        
+           }
+
+           .flag{
+
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            grid-column-gap: 30px;
+
+            align-items: center;
+           }
+           .sed{
+            font-size: 20px;
+            text-align: center;
+           }
+
+           .date{
+
+            color: #4D4D4D;
+            font-size: 16px;
+            text-align:center;
+           }
+
+
+
+        
+    
+
+    </style>
+</head>
+<body>
+
+    <header class="main">
+         
+        <section class="container">
+                <div class="information">
+
+
+                    <div class="tittle">
+
+                        <h1 class="headline">The Greatest show on the earth</h1>
+
+                        <p class="theory">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
+
+                        <h2 class="button"><a href="https://www.youtube.com/watch?v=WTJSt4wP2ME" target="_blank"> Watch live</a>  <i class="fa-solid fa-hand-spock attract"></i></h2>
+
+                    </div>
+                     <div class="img">
+                     <img src="assets/Banner Image.png" alt="">
+                     </div>
+
+               </div>
+
+        </section>
+
+    </header>
+
+    <main class="flex">
+        
+        <section class="container2">
+
+            <div class="t">
+            <div>
+            <div class="div1">
+                <nav class="nav1">
+                    <p><a href="upmatch.html" target="_blank">Upcaming Match</a></p>
+                </nav>
+            </div>
+            </div>
+            <div>
+            <div class="div2">
+                <nav class="nav2">
+                    <a href="">All Group</a>
+                </nav>
+
+            </div>
+
+            </div>
+            <div>
+            <div class="div3">
+                <nav class="nav3">
+                    <a href="index.html" target="_blank">Blogs</a>
+                </nav>
+            </div>
+            </div>
+            </div>
+
+        <div class="status">
+             
+            <div class="match">
+
+                <div class="flag">
+                <div class="ger">
+                    <img src="assets/germany Flag.png" alt="">
+                </div>
+                   
+                <div class="vs">
+                      vs
+                </div>
+                <div class="fra">
+                     <img src="assets/Flag.png" alt="">
+                </div>
+
+                </div>
+
+                <p class="sed">Germany VS France </p>
+
+                <p class="date">April 01,2023,1:00 AM</p>
+
+
+               </div>
+
+               <div class="match">
+
+                <div class="flag">
+                <div class="ger">
+                    <img src="assets/germany Flag.png" alt="">
+                </div>
+                   
+                <div class="vs">
+                      vs
+                </div>
+                <div class="fra">
+                     <img src="assets/Flag.png" alt="">
+                </div>
+
+                </div>
+
+                <p class="sed">Germany VS France </p>
+
+                <p class="date">April 01,2023,1:00 AM</p>
+
+
+               </div>
+
+               <div class="match">
+
+                <div class="flag">
+                <div class="ger">
+                    <img src="assets/germany Flag.png" alt="">
+                </div>
+                   
+                <div class="vs">
+                      vs
+                </div>
+                <div class="fra">
+                     <img src="assets/Flag.png" alt="">
+                </div>
+
+                </div>
+
+                <p class="sed">Germany VS France </p>
+
+                <p class="date">April 01,2023,1:00 AM</p>
+
+
+               </div>
+
+               <div class="match">
+
+                <div class="flag">
+                <div class="ger">
+                    <img src="assets/germany Flag.png" alt="">
+                </div>
+                   
+                <div class="vs">
+                      vs
+                </div>
+                <div class="fra">
+                     <img src="assets/Flag.png" alt="">
+                </div>
+
+                </div>
+
+                <p class="sed">Germany VS France </p>
+
+                <p class="date">April 01,2023,1:00 AM</p>
+
+
+               </div>
+
+               <div class="match">
+
+                <div class="flag">
+                <div class="ger">
+                    <img src="assets/germany Flag.png" alt="">
+                </div>
+                   
+                <div class="vs">
+                      vs
+                </div>
+                <div class="fra">
+                     <img src="assets/Flag.png" alt="">
+                </div>
+
+                </div>
+
+                <p class="sed">Germany VS France </p>
+
+                <p class="date">April 01,2023,1:00 AM</p>
+
+
+               </div>
+
+               <div class="match">
+
+                <div class="flag">
+                <div class="ger">
+                    <img src="assets/germany Flag.png" alt="">
+                </div>
+                   
+                <div class="vs">
+                      vs
+                </div>
+                <div class="fra">
+                     <img src="assets/Flag.png" alt="">
+                </div>
+
+                </div>
+
+                <p class="sed">Germany VS France </p>
+
+                <p class="date">April 01,2023,1:00 AM</p>
+
+
+               </div>
+
+               <div class="match">
+
+                <div class="flag">
+                <div class="ger">
+                    <img src="assets/germany Flag.png" alt="">
+                </div>
+                   
+                <div class="vs">
+                      vs
+                </div>
+                <div class="fra">
+                     <img src="assets/Flag.png" alt="">
+                </div>
+
+                </div>
+
+                <p class="sed">Germany VS France </p>
+
+                <p class="date">April 01,2023,1:00 AM</p>
+
+
+               </div>
+
+               <div class="match">
+
+                <div class="flag">
+                <div class="ger">
+                    <img src="assets/germany Flag.png" alt="">
+                </div>
+                   
+                <div class="vs">
+                      vs
+                </div>
+                <div class="fra">
+                     <img src="assets/Flag.png" alt="">
+                </div>
+
+                </div>
+
+                <p class="sed">Germany VS France </p>
+
+                <p class="date">April 01,2023,1:00 AM</p>
+
+
+               </div>
+
+               <div class="match">
+
+                <div class="flag">
+                <div class="ger">
+                    <img src="assets/germany Flag.png" alt="">
+                </div>
+                   
+                <div class="vs">
+                      vs
+                </div>
+                <div class="fra">
+                     <img src="assets/Flag.png" alt="">
+                </div>
+
+                </div>
+
+                <p class="sed">Germany VS France </p>
+
+                <p class="date">April 01,2023,1:00 AM</p>
+
+
+               </div>
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+
+        </section>
+
+    </main>
+
+      <footer>
+           
+        <div class="foot">
+
+            <h1 class="goal">Goal</h1>
+
+
+            <div class="grid">
+
+                <div class="info">
+                    Contact Us
+                </div>
+
+                <div class="info">
+                    Terms of Service
+                </div>
+
+                <div class="info">
+                    Privacy Policy
+                </div>
+                <div class="info">
+                    Privacy Setting
+                </div>
+                <div class="info">
+                    Goal App
+                </div>
+                <div class="info">
+                    Goal Live
+                </div>
+            </div>
+
+
+
+        </div>
+
+
+      </footer>
+    
+</body>
+</html>
